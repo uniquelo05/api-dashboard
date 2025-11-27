@@ -1,0 +1,22 @@
+# Git files
+.git
+.gitignore
+
+# Documentation
+*.md
+
+# IDE configs
+.vscode/
+.idea/
+*.swp
+
+# Environment files
+.env*
+
+# Dependencies folders
+node_modules/
+vendor/
+
+# Build artifacts
+bin/
+dist/
