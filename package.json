@@ -1,0 +1,38 @@
+{
+  "name": "api-dashboard",
+  "version": "1.0.0",
+  "description": "RESTful API and admin dashboard for crawler management.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uniquelo05/api-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uniquelo05/api-dashboard/issues"
+  },
+  "homepage": "https://github.com/uniquelo05/api-dashboard#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "type": "module"
+}
