@@ -22,3 +22,9 @@ RESTful API and admin dashboard for crawler management.
 - `DB_USER`: Database user
 - `DB_PASSWORD`: Database password
 - `API_KEY`: API key for external services
+
+### Docker setup
+# Trong thư mục api-dashboard
+docker build -t api-dashboard:local .
+docker run -p 4000:4000 --rm api-dashboard:local
+# Truy cập http://localhost:4000/api/health → {"status":"ok"}
